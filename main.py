@@ -30,8 +30,7 @@ async def off():
   
 @client.command()
 async def no():
-  await client.say('**NO ANIME!**')
-  await client.send_file('No Anime Violation.png')
+  await client.say("**NO ANIME!**")
 
 
 @client.event
