@@ -22,17 +22,12 @@ async def on():
   activate = True
   await client.say("```The bot is now on```")
 
-@client.command()
-async def off():
-  global activate
-  activate = False
-  await client.say("```The bot is now off```")
-  
+
+ 
 @client.command()
 async def call():
-  global activate
-  activate = False
-  await client.say("```The bot is now off```")
+  await client.say("NO ANIME!")
+  await client.send_file(message.channel, 'No Anime Violation.png')
 
 @client.event
 async def on_message(message):
