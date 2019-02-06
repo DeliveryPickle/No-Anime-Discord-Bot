@@ -22,7 +22,11 @@ async def on():
   activate = True
   await client.say("```The bot is now on```")
 
-
+@client.command()
+async def off():
+  global activate
+  activate = False
+  await client.say("```The bot is now off```")
  
 @client.command()
 async def call():
