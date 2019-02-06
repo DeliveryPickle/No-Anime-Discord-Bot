@@ -29,7 +29,7 @@ async def off():
   await client.say("```The bot is now off```")
   
 @client.command()
-async def no():
+async def violation():
   await client.say("**NO ANIME!**")
 
 
