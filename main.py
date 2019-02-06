@@ -29,9 +29,10 @@ async def off():
   await client.say("```The bot is now off```")
   
 @client.command()
-async def violation():
-  await client.say("**NO ANIME!**")
-
+async def call():
+  global activate
+  activate = False
+  await client.say("```The bot is now off```")
 
 @client.event
 async def on_message(message):
