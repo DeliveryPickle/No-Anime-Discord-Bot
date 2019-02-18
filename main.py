@@ -152,4 +152,4 @@ async def on_message(message):
        
 
 keep_alive()
-bot.run('NTM3NDE5MzA2MTY2NjQ4ODMy.Dyk_jA.kfWkKPKiWWigwKgdmyQImgmEQtw')
+client.run(str(os.environ.get('BOT_TOKEN')))
