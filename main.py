@@ -4,7 +4,6 @@ from discord.ext.commands import Bot
 import os
 import re
 import unidecode
-import json
 activate = True
 
 client = discord.Client()
